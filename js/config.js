@@ -20,13 +20,13 @@ window.HR = {
     syllabus: ["Month 1: Programming basics, SQL, aptitude","Month 2: Web or data track, projects, Git","Month 3: Internship project, resume, mock interviews"]
   },
   courses: [
-    {name:"Java for Placements", fee:"₹999", duration:"3 weeks", pay:"#"},
-    {name:"Python and SQL for Data Roles", fee:"₹1,499", duration:"4 weeks", pay:"#"},
-    {name:"Aptitude and Reasoning Crash Course", fee:"₹499", duration:"2 weeks", pay:"#"},
-    {name:"Full Stack Starter", fee:"₹1,999", duration:"6 weeks", pay:"#"}
+    {name:"Java for Placements", fee:"₹999", duration:"3 weeks", pay:"6265543585-2@ybl"},
+    {name:"Python and SQL for Data Roles", fee:"₹1,499", duration:"4 weeks", pay:"6265543585-2@ybl"},
+    {name:"Aptitude and Reasoning Crash Course", fee:"₹499", duration:"2 weeks", pay:"6265543585-2@ybl"},
+    {name:"Full Stack Starter", fee:"₹1,999", duration:"6 weeks", pay:"6265543585-2@ybl"}
   ],
   addons: [
-    {name:"Resume review by a mentor", fee:"₹49", pay:"#"},
-    {name:"One-on-one mock interview", fee:"₹299", pay:"#"}
+    {name:"Resume review by a mentor", fee:"₹149", pay:"6265543585-2@ybl"},
+    {name:"One-on-one mock interview", fee:"₹299", pay:"6265543585-2@ybl"}
   ]
 };
