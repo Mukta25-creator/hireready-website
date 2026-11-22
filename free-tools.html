@@ -1,20 +1,69 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Free tools | HireReady</title><meta name="description" content="Free ATS resume builder and ATS score checker.">
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;700&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css"><script src="js/config.js"></script></head><body><div id="site-header"></div><main>
-<section><div class="wrap no-print"><h1>Free tools</h1><p class="lead">No sign-up. Your text stays in your browser and is never uploaded.</p></div>
-<div class="wrap"><h2 id="builder" class="no-print">ATS resume builder</h2>
-<div class="tool-grid"><form id="rf" class="card no-print" autocomplete="off">
-<label>Full name<input name="name"></label><label>Email<input name="email" type="email"></label><label>Phone<input name="phone"></label>
-<label>LinkedIn or GitHub link<input name="link"></label><label>Summary (2 lines)<textarea name="summary"></textarea></label>
-<label>Education (one line each)<textarea name="edu"></textarea></label><label>Skills (comma separated)<textarea name="skills"></textarea></label>
-<label>Projects (one bullet per line)<textarea name="projects"></textarea></label><label>Experience or internships (one bullet per line)<textarea name="exp"></textarea></label>
-<div class="row"><button type="button" class="btn" id="pdf">Download as PDF</button><button type="button" class="btn ghost" id="clr">Clear</button></div>
-<p class="note" style="margin-top:12px">In the print window, choose "Save as PDF" and turn off headers and footers.</p></form>
-<div class="paper" id="preview" aria-live="polite"></div></div></div></section>
-<section class="alt no-print"><div class="wrap"><h2 id="checker">ATS score checker</h2>
-<div class="tool-grid"><div class="card"><label>Paste your resume text<textarea id="rt" style="min-height:220px"></textarea></label>
-<label>Paste a job description (optional)<textarea id="jd"></textarea></label><button class="btn" id="chk">Check score</button></div>
-<div class="card" id="out"><p>Your score and fixes will show here.</p></div></div></div></section>
-</main><div id="site-footer"></div><script src="js/main.js"></script><script src="js/tools.js"></script></body></html>
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Free tools | HireReady</title>
+    <meta name="description" content="Free ATS resume builder and ATS score checker.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;700&family=Figtree:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/config.js"></script>
+</head>
+
+<body>
+    <div id="site-header"></div>
+    <main>
+        <section>
+            <div class="wrap no-print">
+                <h1>Free tools</h1>
+                <p class="lead">No sign-up. Your text stays in your browser and is never uploaded.</p>
+            </div>
+            <div class="wrap">
+                <h2 id="builder" class="no-print">ATS resume builder</h2>
+                <div class="tool-grid">
+                    <form id="rf" class="card no-print" autocomplete="off">
+                        <label>Full name<input name="name"></label><label>Email<input name="email"
+                                type="email"></label><label>Phone<input name="phone"></label>
+                        <label>LinkedIn or GitHub link<input name="link"></label><label>Summary (2 lines)<textarea
+                                name="summary"></textarea></label>
+                        <label>Education (one line each)<textarea name="edu"></textarea></label><label>Skills (comma
+                            separated)<textarea name="skills"></textarea></label>
+                        <label>Projects (one bullet per line)<textarea
+                                name="projects"></textarea></label><label>Experience or internships (one bullet per
+                            line)<textarea name="exp"></textarea></label>
+                        <div class="row"><button type="button" class="btn" id="pdf">Download as PDF</button><button
+                                type="button" class="btn ghost" id="clr">Clear</button></div>
+                        <p class="note" style="margin-top:12px">In the print window, choose "Save as PDF" and turn off
+                            headers and footers.</p>
+                    </form>
+                    <div class="paper" id="preview" aria-live="polite"></div>
+                </div>
+            </div>
+        </section>
+        <section class="alt no-print">
+            <div class="wrap">
+                <h2 id="checker">ATS score checker</h2>
+                <div class="tool-grid">
+                    <div class="card"><label>Paste your resume text<textarea id="rt"
+                                style="min-height:220px"></textarea></label>
+                        <label>Paste a job description (optional)<textarea id="jd"></textarea></label><button
+                            class="btn" id="chk">Check score</button>
+                    </div>
+                    <div class="card" id="out">
+                        <p>Your score and fixes will show here.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <div id="site-footer"></div>
+    <script src="js/main.js"></script>
+    <script src="js/tools.js"></script>
+</body>
+
+</html>

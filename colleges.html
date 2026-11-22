@@ -1,25 +1,97 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>For colleges and TPOs | HireReady</title><meta name="description" content="Free session, poster and registration link for training and placement officers.">
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;700&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css"><script src="js/config.js"></script></head><body><div id="site-header"></div><main>
-<section><div class="wrap"><h1>For colleges and TPOs</h1><p class="lead">We help your final-year and pre-final-year students become placement-ready. Start with a free session or our free resume tools. No payment is needed from the college.</p>
-<div class="grid"><div class="card"><h3>What students get</h3><ul class="chk"><li>Free ATS resume builder and score checker</li><li>Free career roadmap session</li><li>3-month training and internship option</li><li>Certificate on completion</li></ul></div>
-<div class="card"><h3>What you get</h3><ul class="chk"><li>Ready-to-share poster</li><li>One-tap WhatsApp message</li><li>Program details in writing</li><li>Free workshop for your campus</li></ul></div></div>
-<div class="row"><a class="btn" data-link="register" href="#">Student registration link</a><a class="btn ghost" href="#request">Request a workshop</a></div></div></section>
-<section class="alt poster-sec"><div class="wrap"><h2 class="no-poster">Poster and message</h2><div class="tool-grid">
-<div class="poster" id="poster"><span class="pill">Free for students</span><h2 style="margin-top:14px" data-brand="tagline"></h2>
-<ul><li>Free ATS resume builder and score checker</li><li>3-month training and internship program</li><li>Certificate on completion</li></ul><p><strong>Register:</strong> <span id="purl"></span></p></div>
-<div class="no-poster"><label>WhatsApp message (edit if you like)<textarea id="wa" style="min-height:200px"></textarea></label>
-<div class="row"><button class="btn" id="cp">Copy message</button><a class="btn gold" id="sh" target="_blank" rel="noopener">Share on WhatsApp</a><button class="btn ghost" id="pp">Print or save poster</button></div></div></div></div></section>
-<section id="request" class="poster-sec"><div class="wrap no-poster"><h2>Request a workshop</h2><form id="wf" class="card" style="max-width:560px">
-<label>College name<input name="c" required></label><label>Your name and role<input name="n" required></label><label>Phone or email<input name="p" required></label>
-<label>Approximate students<input name="s" type="number" min="1"></label><label>Preferred topic<select name="t"><option>Resume and ATS</option><option>Interview preparation</option><option>Career roadmap</option></select></label>
-<button class="btn" style="margin-top:14px">Send request by email</button></form></div></section>
-</main><div id="site-footer"></div><script src="js/main.js"></script><script>
-const C=window.HR,u=C.links.register!=="#"?C.links.register:C.siteUrl;
-document.getElementById("purl").textContent=u;
-const m=`Hello Sir/Madam,
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>For colleges and TPOs | HireReady</title>
+    <meta name="description" content="Free session, poster and registration link for training and placement officers.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;700&family=Figtree:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/config.js"></script>
+</head>
+
+<body>
+    <div id="site-header"></div>
+    <main>
+        <section>
+            <div class="wrap">
+                <h1>For colleges and TPOs</h1>
+                <p class="lead">We help your final-year and pre-final-year students become placement-ready. Start with a
+                    free session or our free resume tools. No payment is needed from the college.</p>
+                <div class="grid">
+                    <div class="card">
+                        <h3>What students get</h3>
+                        <ul class="chk">
+                            <li>Free ATS resume builder and score checker</li>
+                            <li>Free career roadmap session</li>
+                            <li>3-month training and internship option</li>
+                            <li>Certificate on completion</li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <h3>What you get</h3>
+                        <ul class="chk">
+                            <li>Ready-to-share poster</li>
+                            <li>One-tap WhatsApp message</li>
+                            <li>Program details in writing</li>
+                            <li>Free workshop for your campus</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row"><a class="btn" data-link="register" href="#">Student registration link</a><a
+                        class="btn ghost" href="#request">Request a workshop</a></div>
+            </div>
+        </section>
+        <section class="alt poster-sec">
+            <div class="wrap">
+                <h2 class="no-poster">Poster and message</h2>
+                <div class="tool-grid">
+                    <div class="poster" id="poster"><span class="pill">Free for students</span>
+                        <h2 style="margin-top:14px" data-brand="tagline"></h2>
+                        <ul>
+                            <li>Free ATS resume builder and score checker</li>
+                            <li>3-month training and internship program</li>
+                            <li>Certificate on completion</li>
+                        </ul>
+                        <p><strong>Register:</strong> <span id="purl"></span></p>
+                    </div>
+                    <div class="no-poster"><label>WhatsApp message (edit if you like)<textarea id="wa"
+                                style="min-height:200px"></textarea></label>
+                        <div class="row"><button class="btn" id="cp">Copy message</button><a class="btn gold" id="sh"
+                                target="_blank" rel="noopener">Share on WhatsApp</a><button class="btn ghost"
+                                id="pp">Print or save poster</button></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="request" class="poster-sec">
+            <div class="wrap no-poster">
+                <h2>Request a workshop</h2>
+                <form id="wf" class="card" style="max-width:560px">
+                    <label>College name<input name="c" required></label><label>Your name and role<input name="n"
+                            required></label><label>Phone or email<input name="p" required></label>
+                    <label>Approximate students<input name="s" type="number" min="1"></label><label>Preferred
+                        topic<select name="t">
+                            <option>Resume and ATS</option>
+                            <option>Interview preparation</option>
+                            <option>Career roadmap</option>
+                        </select></label>
+                    <button class="btn" style="margin-top:14px">Send request by email</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <div id="site-footer"></div>
+    <script src="js/main.js"></script>
+    <script>
+        const C = window.HR, u = C.links.register !== "#" ? C.links.register : C.siteUrl;
+        document.getElementById("purl").textContent = u;
+        const m = `Hello Sir/Madam,
 
 ${C.brand} is offering free career tools for your students: an ATS resume builder, an ATS score checker and a roadmap session. A 3-month training and internship program is also available.
 
@@ -30,13 +102,18 @@ We are happy to run a free workshop on your campus.
 
 Regards,
 ${C.brand} (${C.email})`;
-const wa=document.getElementById("wa");wa.value=m;
-const sh=document.getElementById("sh");const up=()=>sh.href="https://wa.me/?text="+encodeURIComponent(wa.value);up();wa.oninput=up;
-document.getElementById("cp").onclick=e=>{navigator.clipboard.writeText(wa.value);e.target.textContent="Copied"};
-document.getElementById("pp").onclick=()=>{document.body.classList.add("print-poster");print();document.body.classList.remove("print-poster")};
-document.getElementById("wf").onsubmit=e=>{e.preventDefault();const f=new FormData(e.target);
-location.href=`mailto:${C.email}?subject=${encodeURIComponent("Workshop request: "+f.get("c"))}&body=${encodeURIComponent(`College: ${f.get("c")}
+        const wa = document.getElementById("wa"); wa.value = m;
+        const sh = document.getElementById("sh"); const up = () => sh.href = "https://wa.me/?text=" + encodeURIComponent(wa.value); up(); wa.oninput = up;
+        document.getElementById("cp").onclick = e => {navigator.clipboard.writeText(wa.value); e.target.textContent = "Copied"};
+        document.getElementById("pp").onclick = () => {document.body.classList.add("print-poster"); print(); document.body.classList.remove("print-poster")};
+        document.getElementById("wf").onsubmit = e => {
+            e.preventDefault(); const f = new FormData(e.target);
+            location.href = `mailto:${C.email}?subject=${encodeURIComponent("Workshop request: " + f.get("c"))}&body=${encodeURIComponent(`College: ${f.get("c")}
 Contact: ${f.get("n")}, ${f.get("p")}
 Students: ${f.get("s")}
-Topic: ${f.get("t")}`)}`};
-</script></body></html>
+Topic: ${f.get("t")}`)}`
+        };
+    </script>
+</body>
+
+</html>
