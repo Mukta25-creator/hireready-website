@@ -2,8 +2,8 @@
 window.HR = {
   brand: "HireReady",
   tagline: "Get placement-ready in 3 months",
-  email: "contact@elytespark.in",          // your domain email
-  whatsapp: "919999999999",                // country code + number, no + or spaces
+  email: "contact@hireready.in",          // your domain email
+  whatsapp: "919663519674",                // country code + number, no + or spaces
   siteUrl: "https://your-site.netlify.app", // update after deploying
   links: {
     register: "#",   // Google Form / Tally link for program registration
