@@ -6,8 +6,8 @@ window.HR = {
   whatsapp: "919663519674",                // country code + number, no + or spaces
   siteUrl: "https://your-site.netlify.app", // update after deploying
   links: {
-    register: "#",   // Google Form / Tally link for program registration
-    webinar:  "#",   // free monthly webinar signup form
+    register: "https://forms.gle/LY2JpB2HU9SxtzjGA",   // Google Form / Tally link for program registration
+    webinar:  "6265543585-2@ybl",   // free monthly webinar signup form
     workshop: "#"    // optional: form for college workshop requests
   },
   // SAMPLE fees and dates. Replace with your real details.
