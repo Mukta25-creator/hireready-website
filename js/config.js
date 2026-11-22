@@ -16,7 +16,7 @@ window.HR = {
     duration: "3 months", mode: "Online, weekend live sessions", fee: "₹2,999",
     certificate: "Completion certificate and internship letter",
     mentor: "Add mentor name and background",
-    pay: "#",        // Razorpay / Cashfree / Instamojo payment link
+    pay: "6265543585-2@ybl",        // Razorpay / Cashfree / Instamojo payment link
     syllabus: ["Month 1: Programming basics, SQL, aptitude","Month 2: Web or data track, projects, Git","Month 3: Internship project, resume, mock interviews"]
   },
   courses: [
