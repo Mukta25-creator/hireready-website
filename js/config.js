@@ -4,7 +4,7 @@ window.HR = {
   tagline: "Get placement-ready in 3 months",
   email: "contact@hireready.in",          // your domain email
   whatsapp: "919663519674",                // country code + number, no + or spaces
-  siteUrl: "https://your-site.netlify.app", // update after deploying
+  siteUrl: "https://forms.gle/LY2JpB2HU9SxtzjGA", // update after deploying
   links: {
     register: "https://forms.gle/LY2JpB2HU9SxtzjGA",   // Google Form / Tally link for program registration
     webinar:  "6265543585-2@ybl",   // free monthly webinar signup form
