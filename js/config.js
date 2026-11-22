@@ -7,7 +7,7 @@ window.HR = {
   siteUrl: "https://forms.gle/LY2JpB2HU9SxtzjGA", // update after deploying
   links: {
     register: "https://forms.gle/LY2JpB2HU9SxtzjGA",   // Google Form / Tally link for program registration
-    webinar:  "6265543585-2@ybl",   // free monthly webinar signup form
+    webinar:  "#",   // free monthly webinar signup form
     workshop: "#"    // optional: form for college workshop requests
   },
   // SAMPLE fees and dates. Replace with your real details.
